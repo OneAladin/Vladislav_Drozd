@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Тег &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;</h3>
+    <p>Тег &lt;dl&gt; входит в тройку элементов &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;, предназначенных для создания списка
+        определений.<br>
+        Каждый такой список начинается с контейнера &lt;dl&gt;,<br>
+        куда входит тег &lt;dt&gt; создающий термин и тег &lt;dd&gt; задающий определение этого термина.</p>
+
+    <p><strong>Пример</strong></p>
+
+    &lt;dl&gt;<br>
+    &ensp;&lt;dt&gt;Термин 1&lt;/dt&gt;<br>
+    &emsp;&lt;dd&gt;Определение термина 1&lt;/dd&gt;<br>
+    &ensp;&lt;dt&gt;Термин 2&lt;/dt&gt;<br>
+    &emsp;&lt;dd&gt;Определение термина 2&lt;/dd&gt;<br>
+    &lt;/dl&gt;
+
+    <p><strong>Вывод</strong></p>
+    <dl>
+        <dt>Термин 1</dt>
+        <dd>Определение термина 1</dd>
+        <dt>Термин 2</dt>
+        <dd>Определение термина 2</dd>
+    </dl>
+    <hr>
+    <h3>Тег &lt;pre&gt;</h3>
+    <p>Элемент &lt;pre&gt; определяет блок предварительно форматированного текста.<br>
+        Такой текст отображается обычно моноширинным шрифтом и со всеми пробелами между словами.<br>
+        По умолчанию, любое количество пробелов идущих в коде подряд, на веб-странице показывается как один.<br>
+        Тег &lt;pre&gt; позволяет обойти эту особенность и отображать текст как требуется разработчику.<br>
+        В отличие от тега &lt;plaintext&gt;, использование которого осуждается в HTML 4,<br>
+        внутри контейнера &lt;pre&gt; допустимо применять любые теги кроме следующих: &lt;big&gt;, &lt;img&gt;,
+        &lt;object&gt;, &lt;small&gt;, &lt;sub&gt; и &lt;sup&gt;.</p>
+
+    <p><strong>Пример</strong></p>
+    &lt;pre&gt;
+    <pre>
+            -                -----  
+            -----           |-----
+           ||----|          ----||  
+           ||-----         -----||  
+           ||-----|       |-----||
+           || -----       ------||
+           ||- ----|     |------||
+           ||---||--     -------||
+           ||--|| --|   |-------||
+           || -|| |--   --- - --||
+           || -||  --|-|--| - ---|
+           |---||  |-----| |-----|
+           |---||   |----  |-----| 
+           |----|    ---   |-----|
+           |-----          ------| 
+             </pre>
+    &lt;/pre&gt;
+
+    <p><strong>Вывод</strong></p>
+    <pre>
+            -                -----  
+            -----           |-----
+           ||----|          ----||  
+           ||-----         -----||  
+           ||-----|       |-----||
+           || -----       ------||
+           ||- ----|     |------||
+           ||---||--     -------||
+           ||--|| --|   |-------||
+           || -|| |--   --- - --||
+           || -||  --|-|--| - ---|
+           |---||  |-----| |-----|
+           |---||   |----  |-----| 
+           |----|    ---   |-----|
+           |-----          ------| 
+        </pre>
+    <hr>
+    <h3>Тег &lt;code&gt;</h3>
+    <p>Тег &lt;code&gt; предназначен для отображения одной или нескольких строк текста,<br>
+        который представляет собой программный код. Сюда относятся имена переменных,<br>
+        ключевые слова, тексты функции и т.д. Браузеры обычно отображают содержимое<br>
+        контейнера &lt;code&gt; как моноширинный текст уменьшенного размера.В отличие<br>
+        от тега &lt;pre&gt; дополнительные пробелы внутри контейнера &lt;code&gt; не учитываются,<br>
+        так же, как и переносы текста. Поэтому используйте тег &lt;br&gt; или &lt;p&gt; для создания переносов.</p>
+    <p><strong>Пример</strong></p>
+    &lt;code&gt;
+    function checkParent (src, dest) {<br>
+    &ensp;while (src != null) {<br>
+    &emsp;if (src.tagName == dest) return src<br>
+    &emsp;src = src.parentElement<br>
+    &ensp;}<br>
+    &ensp;return null<br>
+    }&lt;/code&gt;
+    <p><strong>Вывод</strong></p>
+    <code>
+            function checkParent (src, dest) {<br>
+             while (src != null) {<br>
+               if (src.tagName == dest) return src<br>
+                src = src.parentElement<br>
+             }<br>
+             return null<br>
+            }</code>
+    <hr>
+    <h3>Тег &lt;kbd&gt;</h3>
+    <p>Тег &lt;kbd&gt; используется для обозначения текста,<br>
+        который набирается на клавиатуре или для названия клавиш.<br>
+        Браузеры обычно помечают текст в контейнере &lt;kbd&gt; моноширинным шрифтом.</p>
+    <p><strong>Пример</strong></p>
+    <p>&lt;p&gt;Для быстрого закрашивания выделенной области цветом переднего плана<br>
+        используйте комбинацию клавиш &lt;kbd&gt;&lt;Alt&gt;+&lt;Backspace&gt;&lt;/kbd&gt;<br>
+        или &lt;kbd&gt;&lt;Alt&gt;+&lt;Delete&gt;&lt;/kbd&gt;.<br>
+        Для закрашивания выделенной области фоновым цветом<br>
+        воспользуйтесь комбинацией<br>
+        &lt;kbd&gt;&lt;Ctrl&gt;+&lt;Backspace&gt;&lt;/kbd&gt; или<br>
+        &lt;kbd&gt;&lt;Ctrl&gt;+&lt;Delete&gt;&lt;/kbd&gt;.&lt;/p&gt;</p>
+    <p><strong>Вывод</strong></p>
+    <p>Для быстрого закрашивания выделенной области цветом переднего плана<br>
+        используйте комбинацию клавиш <kbd>&lt;Alt&gt;+&lt;Backspace&gt;</kbd><br>
+        или <kbd>&lt;Alt&gt;+&lt;Delete&gt;</kbd>.<br>
+        Для закрашивания выделенной области фоновым цветом<br>
+        воспользуйтесь комбинацией<br>
+        <kbd>&lt;Ctrl&gt;+&lt;Backspace&gt;</kbd> или<br>
+        <kbd>&lt;Ctrl&gt;+&lt;Delete&gt;</kbd>.
+    </p>
+    <hr>
+    <h3>Тег &lt;var&gt;</h3>
+    <p>Тег &lt;var&gt; используется для выделения переменных<br>
+        компьютерных программ. Браузеры обычно помечают текст<br>
+        в контейнере &lt;var&gt; курсивным начертанием.</p>
+    <p><strong>Пример</strong></p>
+    &lt;p&gt;В данном примере делается запрос к базе данных для получения поля &lt;var&gt;content_title&lt;/var&gt;<br>
+    из таблицы &lt;var&gt;content&lt;/var&gt;, причем должно удовлетворяться условие<br>
+    &lt;code&gt;section_id = 1&lt;/code&gt;.&lt;/p&gt;
+    <p><strong>Вывод</strong></p>
+    <p>В данном примере делается запрос к базе данных для получения поля <var>content_title</var><br>
+        из таблицы <var>content</var>, причем должно удовлетворяться условие<br>
+        <code>section_id = 1</code>.
+    </p>
+    <hr>
+    <h3>Тег &lt;sup&gt;</h3>
+    <p>Отображает шрифт в виде верхнего индекса. Шрифт при этом<br>
+        отображается выше базовой линии текста и уменьшенного размера.</p>
+    <p><strong>Пример</strong></p>
+    &lt;p&gt;&lt;i&gt;X &lt;sup&gt;&lt;small&gt;n&lt;/small&gt;&lt;/sup&gt; + Y
+    &lt;sup&gt;&lt;small&gt;n&lt;/small&gt;&lt;/sup&gt;
+    = Z &lt;sup&gt;&lt;small&gt;n&lt;/small&gt;&lt;/sup&gt;&lt;/i&gt;&lt;/p&gt;
+    <p><strong>Вывод</strong></p>
+    <p><i>X <sup><small>n</small></sup> + Y <sup><small>n</small></sup>
+            = Z <sup><small>n</small></sup></i></p>
+    <hr>
+    <h3>Тег &lt;blockquote&gt;</h3>
+    <p>Тег &lt;blockquote&gt; предназначен для выделения длинных цитат<br>
+        внутри документа. Текст, обозначенный этим тегом, традиционно<br>
+        отображается как выровненный блок с отступами слева и справа<br>
+        (примерно по 40 пикселов), а также с отбивкой сверху и снизу.</p>
+    <p><strong>Пример</strong></p>
+    &lt;blockquote&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+    sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat<br>
+    volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper<br>
+    suscipit lobortis nisl ut aliquip ex ea commodo consequat.&lt;/p&gt;
+    &lt;/blockquote&gt;
+    <p><strong>Вывод</strong></p>
+    <blockquote>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+            sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat<br>
+            volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper<br>
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    </blockquote>
+    <hr>
+    <h3>Тег &lt;ins&gt;</h3>
+    <p>Тег &lt;ins&gt; предназначен для выделения текста, который был добавлен<br>
+        в новую версию документа. Подобное форматирование позволяет отследить,<br>
+        какие изменения в тексте документа были сделаны.Браузеры обычно помечают<br>
+        текст в контейнере &lt;ins&gt; как подчеркнутый.</p>
+    <p><strong>Пример</strong></p>
+    &lt;p&gt;Заметим, что схожий результат с Firefox показывает и браузер<br>
+    Opera, но, как видно на рис. 1, в последующих версиях &lt;del&gt;этот<br>
+    недостаток был устранен&lt;/del&gt; &lt;ins&gt;подход разработчиков этого<br>
+    браузера был изменен&lt;/ins&gt;.&lt;/p&gt;
+    <p><strong>Вывод</strong></p>
+    <p>Заметим, что схожий результат с Firefox показывает и браузер<br>
+        Opera, но, как видно на рис. 1, в последующих версиях <del>этот<br>
+            недостаток был устранен</del> <ins>подход разработчиков этого<br>
+            браузера был изменен</ins>.</p>
+    <hr>
+    <h3>Тег &lt;address&gt;</h3>
+    <p>Тег &lt;address&gt; предназначен для хранения информации об<br>
+        авторе и может включать в себя любые элементы HTML вроде ссылок,<br>
+        текста, выделений и т.д. Планируется, что поисковые системы<br>
+        будут анализировать содержимое этого тега для сбора информации<br>
+        об авторах сайтов.По умолчанию текст внутри контейнера<br>
+        &lt;address&gt; отображается курсивным начертанием.<br>
+        Если эта особенность не требуется, используйте стили для<br>
+        изменения начертания шрифта.</p>
+    <p><strong>Пример</strong></p>
+    &lt;address&gt;
+    Этот партал зделан сабствинаручно веб-дизайнером Ваней Шапочкиным в праграме<br>
+    Блакнот. Если вы хатите взять маи статьи к сибе на сайт то спрасите мое<br>
+    разришение.
+    &lt;/address&gt;
+    <p><strong>Вывод</strong></p>
+    <address>
+        Этот партал зделан сабствинаручно веб-дизайнером Ваней Шапочкиным в праграме<br>
+        Блакнот. Если вы хатите взять маи статьи к сибе на сайт то спрасите мое<br>
+        разришение.
+    </address>
+    <hr>
+    <h3>Тег &lt;nobr&gt;</h3>
+    <p>Тег &lt;nobr&gt; уведомляет браузер отображать текст без переносов.<br>
+        Если этого тега в коде документа нет, а также имеются переводы строки,<br>
+        они игнорируются и текст выравнивается по левому краю окна браузера<br>
+        или родительского элемента. При этом браузер переводы строк расставляет<br>
+        автоматически, чтобы текст полностью поместился по ширине окна.<br>
+        Использование тега &lt;nobr&gt; заставляет отображать текст без<br>
+        переносов, одной строкой, что может привести к появлению горизонтальной<br>
+        полосы прокрутки. Пользователям придется прокручивать текст по<br>
+        горизонтали, чтобы увидеть его полностью, чего обычно делать никто не любит.</p>
+    <p><strong>Пример</strong></p>
+    &lt;h1&gt;&lt;nobr&gt;Lorem ipsum dolor sit amet,<br>
+    consectetuer adipiscing elit&lt;/nobr&gt;&lt;/h1&gt;<br>
+
+    &lt;p&gt;&lt;nobr&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+    sed diem nonummy nibh euismod tincidunt ut lacreet dolore<br>
+    magna aliguam erat volutpat.&lt;/nobr&gt; Ut wisis enim ad minim veniam,<br>
+    quis nostrud exerci tution ullamcorper suscipit lobortis nisl<br>
+    ut aliquip ex ea commodo consequat.&lt;/p&gt;
+    <p><strong>Вывод</strong></p>
+    <h1>
+        <nobr>Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit</nobr>
+    </h1>
+
+    <p>
+        <nobr>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diem nonummy nibh euismod tincidunt ut lacreet dolore
+            magna aliguam erat volutpat.</nobr> Ut wisis enim ad minim veniam,
+        quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+        ut aliquip ex ea commodo consequat.
+    </p>
+    <hr>
+</body>
+
+</html>
