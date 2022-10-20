@@ -1,0 +1,20 @@
+html{
+    font-size: 18px;
+}
+.format{
+    margin-left: 20%;
+            margin-right: 20%;
+                margin-top: 1%;
+                    margin-bottom: 5%;
+}
+
+body{
+    background-color: #1E90FF;
+}
+
+div{
+    background-color: #AFEEEE;
+        border-color: #000000;
+            border-style: solid;
+                padding: 2px;
+}
