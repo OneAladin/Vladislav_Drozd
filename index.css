@@ -1,20 +1,43 @@
 html{
-    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+        font-size: 18px;
 }
+
 .format{
-    margin-left: 20%;
-            margin-right: 20%;
+    margin-left: 15%;
+            margin-right: 15%;
                 margin-top: 1%;
-                    margin-bottom: 5%;
+                    margin-bottom: 2%;
 }
 
 body{
-    background-color: #1E90FF;
+    background-color: #6a9cff;
 }
 
 div{
-    background-color: #AFEEEE;
-        border-color: #000000;
+    background-color: hsl(185, 100%, 50%);
+        border-color: #ffffff;
             border-style: solid;
                 padding: 2px;
+}
+
+h2{
+    margin-left: 10px;
+        margin-right: 10px;
+}
+
+h3{
+    margin-left: 15px;
+        margin-right: 15px;
+}
+
+p{
+    margin-left: 20px;
+        margin-right: 20px;
+}
+
+hr{
+    background-color: #ffffff;
+        border-color: #ffffff;
+            padding: 0.5px;
 }
