@@ -3,22 +3,21 @@ html{
         font-size: 18px;
 }
 
-.format{
-    margin-left: 15%;
-            margin-right: 15%;
-                margin-top: 1%;
-                    margin-bottom: 2%;
-}
+
 
 body{
     background-color: #6a9cff;
+        margin: 0px;
 }
 
-div{
-    background-color: hsl(185, 100%, 50%);
-        border-color: #ffffff;
-            border-style: solid;
-                padding: 2px;
+.format{
+    width: 800px;margin: 0 auto;
+        margin-top: 2%;
+            margin-bottom: 2%;
+                background-color: hsl(185, 100%, 50%);
+                    border-color: #ffffff;
+                        border-style: solid;
+                            padding: 2px;
 }
 
 h2{
@@ -39,5 +38,5 @@ p{
 hr{
     background-color: #ffffff;
         border-color: #ffffff;
-            padding: 0.5px;
+        padding: 0.5px;
 }
