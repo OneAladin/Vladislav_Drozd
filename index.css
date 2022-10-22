@@ -11,13 +11,14 @@ body{
 }
 
 .format{
-    width: 800px;margin: 0 auto;
-        margin-top: 2%;
-            margin-bottom: 2%;
-                background-color: hsl(185, 100%, 50%);
-                    border-color: #ffffff;
-                        border-style: solid;
-                            padding: 2px;
+    margin-left: 2%;
+        margin-right: 2%;
+            margin-top: 1%;
+                margin-bottom: 1%;
+                    background-color: hsl(185, 100%, 50%);
+                        border-color: #ffffff;
+                            border-style: solid;
+                                padding: 2px;
 }
 
 h2{
