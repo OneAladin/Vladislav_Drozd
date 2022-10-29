@@ -1,0 +1,13 @@
+html{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+.frame{
+    padding: 60px 60px 80px 80px; /*Отступы слева, справа, сверху, снизу*/
+    border-style: solid; /*Стиль границы: сплошной*/
+    border-image-width: 100px;/*Граница изображения: ширина*/
+    border-image-source: url(pictures_lesson4/ramka.png);/*Картинка, источник*/
+    border-image-slice: 100;/*Срез*/
+    text-align: center;/*Выравнивание текста по центру*/
+}

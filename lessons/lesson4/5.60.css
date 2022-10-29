@@ -1,0 +1,18 @@
+p.header{
+    font-weight: bold;
+        font-size: 24px
+}
+
+p.dateOfBirth{
+    color: green;
+}
+
+p.champion{
+    color: red;
+}
+
+p.mainText{
+    font-style: italic;
+    color: blue;
+}
+

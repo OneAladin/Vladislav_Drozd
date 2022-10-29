@@ -1,0 +1,18 @@
+html{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+.frame{
+    background: 
+    url(pictures_lesson4/3.png) no-repeat,/*Вертикальная линия слева*/
+    url(pictures_lesson4/4.png) no-repeat right top,/*Вертикальная линия справа*/
+    url(pictures_lesson4/5.png) no-repeat left bottom,/*Горизонтальная линия сверху*/
+    url(pictures_lesson4/6.png) no-repeat right bottom,/*Горизонтальная линия снизу*/
+    url(pictures_lesson4/1.png) repeat-y,/*Левый верхний угол*/
+    url(pictures_lesson4/1.1.png) repeat-y right,/*Правый верхний угол*/
+    url(pictures_lesson4/2.png) repeat-x,/*Левый нижний угол*/
+    url(pictures_lesson4/2.2.png) repeat-x bottom;/*Правый нижний угол*/
+    padding: 60px 60px 80px 80px;/*Отступы слева, справа, сверху, снизу*/
+    text-align: center; /*Выравнивание по центру*/
+}
