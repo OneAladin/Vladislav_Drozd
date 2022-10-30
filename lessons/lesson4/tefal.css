@@ -1,12 +1,31 @@
-.pan1{
+.fryingPans {
     position: absolute;
+    top: 300px;
+    left: 224px;
 }
 
-.pan2{
-    position: absolute;
-    /*top: -130px;*/
+.pan {
+    top: 300px;
+    left: 230px;
 }
 
-.pan3{
+#pan_1:hover .move-up {
+    transform: translate(0,-250px);
+    -webkit-transform: translate(0,-250px);
+    -o-transform: translate(0,-250px);
+    -moz-transform: translate(0,-250px);
+}
+
+.object {
     position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+
+.fryingPans2 {
+    position: absolute;
+    top: 300px;
+    left: 224px;
 }
