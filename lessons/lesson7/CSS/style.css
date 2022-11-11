@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    text-align: center;
+    font-size: 40px;
+    background-color: #add8e6;
+    padding: 20px;
+    color: #0c0cff;
+}
+
+.headMenu{
+    float: left;
+    width: 200px;
+    margin: 25px 0px 70px 0px;
+}
+
+.menuName{
+    font-size: 25px;
+}
+
+.menu{
+    font-size: 20px;
+}
+
+.header{
+    margin-left: 220px;
+}
+
+.headerName{
+    text-align: center;
+    font-size: 25px;
+}
+
+.imgFotoFootball{
+    float: left;
+    margin: 0px 17px 0px 0px;
+    width: 250px;
+}
+
+.boord{
+    font-size: 25px;
+    margin: 10px 10px 0 0;
+}
+
+.exit{
+    text-align: center;
+    font-size: 40px;
+    background-color: #add8e6;
+    padding: 20px;
+    color: #0c0cff;
+}

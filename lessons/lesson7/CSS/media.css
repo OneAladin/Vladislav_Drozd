@@ -1,0 +1,18 @@
+@import "style.css";
+
+@media all and (max-width: 700px){
+    .head, .exit{
+        background-color: yellow;
+        color: black;
+    }
+
+    .boord{
+        font-size: 25px;
+        margin: 143px 10px 0 0;
+    }
+
+    .menu{
+        font-size: 20px;
+        text-align: center;
+    }
+}

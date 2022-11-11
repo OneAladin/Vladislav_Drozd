@@ -17,5 +17,11 @@ p.mainText{
 }
 
 p a::before{
-    content: url('pictures_lesson6/extref.png');
+    content: url('http://fe.it-academy.by/Sites/0041787/extref.png');
+}
+
+@media print{
+    .botvinnik{
+        
+    }
 }
