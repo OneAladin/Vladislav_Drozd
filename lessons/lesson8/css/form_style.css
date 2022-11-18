@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial;
+    margin: 10px;
+}
+
+.start{
+    line-height: 1.5;
+}
+
+.window__1{
+    float:right;
+}
+
+.window__2{
+    float:right;
+    clear: both;
+    margin: -24px 0 0 0;
+}
+
+.window__3{
+    float:right;
+    clear: both;
+}
+
+.check_mark{
+    top: 3px;
+    position: relative;
+}
+
+
+
+
+

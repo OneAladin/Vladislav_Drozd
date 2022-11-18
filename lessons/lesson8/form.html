@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form_media.css">
+    <title>Title</title>
+</head>
+<body>
+<!--
+Название статьи:
+                
+                    <input class="window_1" type="tex" name="tex_1"><br>
+                
+                Рубрика:
+          
+                    <select class="window_2" name="header">
+                    <option value="header_1">компьютерная техника</option>
+                    <option value="header_2">графика и дизайн</option>
+                    <option value="header_3" selected>программирование</option>
+                </select><br>
+               
+                Публикация:
+          
+                    <input type="radio" name="radio" value="rad_1">на сайте
+                    <input type="radio" name="radio" value="rad_2">в журнале
+                    <input type="radio" name="radio" value="rad_3">на сайте и в журнале<br>
+        
+
+                Разрешить комментарии:
+           
+
+                    <input class="check_mark" type="checkbox" name="checkbox" value="on" checked><br>
+         
+                Текст статьи:<br>
+                <textarea name="tex_2"></textarea>
+      
+                <input type="submit" value="Опубликовать">
+            -->
+<!--Домашка---------------------------------------------------------------------------------------------->
+
+<p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p><br>
+    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+
+<div class="start">
+    <div>
+        Название статьи:
+        <div class="window__1">
+            <input type="tex" name="tex_1">
+        </div>
+    </div>
+    <div>
+        Рубрика:
+        <div class="window__2">
+            <select name="header">
+                <option value="header_1">компьютерная техника</option>
+                <option value="header_2">графика и дизайн</option>
+                <option value="header_3" selected>программирование</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        Публикация:
+        <div class="window__3">
+            <input type="radio" name="radio" value="rad_1">на сайте
+            <input type="radio" name="radio" value="rad_2">в журнале
+            <input type="radio" name="radio" value="rad_3">на сайте и в журнале
+        </div>
+    </div>
+    <div>
+        Разрешить комментарии: 
+        <input class="check_mark" type="checkbox" name="checkbox" value="on" checked>
+    </div>
+    <div>
+        Текст статьи:
+        <div><textarea name="tex_2"></textarea></div>
+    </div>
+    <div>
+        <input type="submit" value="Опубликовать">
+    </div>
+
+
+</div>
+    </form>
+
+</body>
+</html>
