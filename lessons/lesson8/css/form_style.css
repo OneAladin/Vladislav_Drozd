@@ -9,28 +9,65 @@ html{
     margin: 10px;
 }
 
+.title__2{
+    display: none;
+}
+
 .start{
     line-height: 1.5;
 }
 
+.article__title{
+    float: left;
+}
+
 .window__1{
-    float:right;
+    margin-left: 200px;
+}
+
+.cell__1{
+    width: 100%;
+}
+
+.heading{
+    float: left;
 }
 
 .window__2{
-    float:right;
-    clear: both;
-    margin: -24px 0 0 0;
+    margin-left: 200px;
+}
+
+.cell__2{
+    width: 200px;
+}
+
+.publication{
+    float: left;
 }
 
 .window__3{
-    float:right;
-    clear: both;
+    margin-left: 200px;
+}
+
+.window__3_1{
+    display: none;
+}
+
+.allow__comments{
+    float: left;
+}
+
+.window__4{
+    margin-left: 200px;
 }
 
 .check_mark{
     top: 3px;
     position: relative;
+}
+
+.cell__3{
+    width: 100%;
 }
 
 

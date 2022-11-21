@@ -1,1 +1,79 @@
 @import "form_style.css";
+
+@media all and (max-width: 600px){
+    .title{
+
+    }
+
+    .title__1{
+        display: none;
+    }
+
+    .title__2{
+        display: block;
+    }
+
+    .article__title{
+        float: initial;
+    }
+
+    .window__1{
+        margin-left: 0;
+    }
+
+    .heading{
+        float: initial;
+    }
+
+    .cell__2{
+        width: 100%;
+    }
+    
+    .window__2{
+        margin-left: 0;
+    }
+
+    .publication{
+        float: initial;
+    }
+    
+    .window__3{
+        display: none;
+
+    }
+
+    .window__3_1{
+        display: block;
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+/*
+@media all and (max-width: 700px){
+    .head, .exit{
+        background-color: yellow;
+        color: black;
+    }
+
+    .boord{
+        font-size: 25px;
+        margin: 143px 10px 0 0;
+    }
+
+    .menu{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .headMenu {
+        text-align: center;
+        background-color: #f0e68c;
+        width: 100%;
+        margin: 0px 0px 25px 0px;
+    }
+}
+*/

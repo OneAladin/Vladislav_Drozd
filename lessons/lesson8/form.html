@@ -8,73 +8,41 @@
     <title>Title</title>
 </head>
 <body>
-<!--
-Название статьи:
-                
-                    <input class="window_1" type="tex" name="tex_1"><br>
-                
-                Рубрика:
-          
-                    <select class="window_2" name="header">
-                    <option value="header_1">компьютерная техника</option>
-                    <option value="header_2">графика и дизайн</option>
-                    <option value="header_3" selected>программирование</option>
-                </select><br>
-               
-                Публикация:
-          
-                    <input type="radio" name="radio" value="rad_1">на сайте
-                    <input type="radio" name="radio" value="rad_2">в журнале
-                    <input type="radio" name="radio" value="rad_3">на сайте и в журнале<br>
-        
 
-                Разрешить комментарии:
-           
-
-                    <input class="check_mark" type="checkbox" name="checkbox" value="on" checked><br>
-         
-                Текст статьи:<br>
-                <textarea name="tex_2"></textarea>
-      
-                <input type="submit" value="Опубликовать">
-            -->
-<!--Домашка---------------------------------------------------------------------------------------------->
-
-<p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p><br>
-    <form action="http://fe.it-academy.by/TestForm.php" method="get">
-
+<p class="title__1">Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+<p class="title__2">Для публикации вашей статьи заполните, <br>пожалуйста, следующую форму:</p><br>
+<form action="http://fe.it-academy.by/TestForm.php" method="get">
 <div class="start">
-    <div>
-        Название статьи:
+    <label class="article__title">Название статьи:</label>
         <div class="window__1">
-            <input type="tex" name="tex_1">
+            <input class="cell__1" type="tex" name="tex_1">
         </div>
-    </div>
-    <div>
-        Рубрика:
+    <label class="heading">Рубрика:</label>
         <div class="window__2">
-            <select name="header">
+            <select class="cell__2" name="header">
                 <option value="header_1">компьютерная техника</option>
                 <option value="header_2">графика и дизайн</option>
                 <option value="header_3" selected>программирование</option>
             </select>
         </div>
-    </div>
-    <div>
-        Публикация:
+    <label class="publication">Публикация:</label>
         <div class="window__3">
             <input type="radio" name="radio" value="rad_1">на сайте
             <input type="radio" name="radio" value="rad_2">в журнале
             <input type="radio" name="radio" value="rad_3">на сайте и в журнале
         </div>
-    </div>
-    <div>
-        Разрешить комментарии: 
+        <div class="window__3_1">
+            <input type="radio" name="radio" value="rad_1">на сайте<br>
+            <input type="radio" name="radio" value="rad_2">в журнале<br>
+            <input type="radio" name="radio" value="rad_3">на сайте и в журнале
+        </div>
+    <label class="allow__comments">Разрешить комментарии:</label>
+    <div class="window__4">
         <input class="check_mark" type="checkbox" name="checkbox" value="on" checked>
     </div>
+    <label class="article__text">Текст статьи:</label>
     <div>
-        Текст статьи:
-        <div><textarea name="tex_2"></textarea></div>
+        <textarea class="cell__3" name="tex_2"></textarea>
     </div>
     <div>
         <input type="submit" value="Опубликовать">
