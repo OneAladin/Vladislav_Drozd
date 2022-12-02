@@ -1,0 +1,13 @@
+.smile{
+    width: 300px;
+    height: 300px;
+}
+
+.pupil:hover {
+    fill:red;
+    r:45px;
+}
+
+.pupil:hover + .mouth {
+    fill:black;
+}

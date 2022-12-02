@@ -1,0 +1,9 @@
+.video{
+    overflow-y: scroll;
+    width: 457px;
+    height: 700px;
+}
+
+.video2{
+    margin-bottom: 20px;
+}
