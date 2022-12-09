@@ -1,0 +1,42 @@
+.figure_1 {
+    height: 100px;
+    width: 100px;
+    margin: 10px 20px;
+    float: left;
+    animation: animation1 3s infinite;
+}
+
+.figure_2 {
+    position: absolute;
+    top: 150px;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+    margin: 10px 20px;
+    float: left;
+}
+
+.figure_3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: yellow;
+    margin: 10px 20px;
+    float: left;
+}
+
+.figures:hover .figure_3 {
+	animation: animation3 5s infinite;
+}
+
+.figures {
+    height: 300px;
+    width: 100%;
+    border: solid red 1px;
+}
+
+.figures:hover .figure_2 {
+	animation: animation2 1s infinite;
+}

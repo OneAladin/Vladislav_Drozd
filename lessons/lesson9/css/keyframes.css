@@ -1,0 +1,63 @@
+@import "anim.css";
+
+@keyframes animation1 {
+    from { background-color: red; }
+    50% { background-color: green }
+    to { background-color: red; }
+}
+
+@keyframes animation2 {
+    from { width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid orange;
+        margin: 10px 20px;
+        float: left; }
+
+    50% { border-bottom: 100px solid rgb(204, 0, 255);
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        height: 0;
+        width: 100px;
+        float: left; }
+        
+        
+    to { width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid orange;
+        margin: 10px 20px;
+        float: left; }
+}
+
+@keyframes animation3 {
+    from { height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        background-color: yellow;
+        margin: 10px 20px;
+        float: left; }
+
+    30% { height: 50px;
+        width: 50px;
+        border-radius: 100px;
+        background-color: aqua;
+        margin: 150px 50px;
+        float: left; }
+
+    70% { height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        background-color: rgb(255, 0, 85);
+        margin: 90px 500px;
+        float: left; }
+
+    to { height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        background-color: yellow;
+        margin: 10px 20px;
+        float: left; }
+}
