@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+    var surname=prompt ("Введите Вашу фамилию");
+        var name=prompt ("Введите Ваше имя");
+            var patronymic=prompt ("Введите Ваше отчество");
+                var age=+prompt ("Введите Ваш возраст в годах");
+                    var gender=confirm ("Ваш пол мужской?");
+    
+    if (gender === true) {
+        var gender = "Мужской";
+    } else {
+        var gender = "Женский";
+        }
+
+    if (gender == "Мужской" && age >= 63) {
+        pension = "Да";
+    } else if (gender == "Мужской" && age < 63) {
+        pension = "Нет";
+    } else if (gender == "Женский" && age >= 58) {
+        pension = "Да";
+    } else if (gender == "Женский" && age < 58) {
+        pension = "Нет";}
+
+    alert(
+    "Ваше Ф.И.О.: " + surname + " " + name + " " + patronymic + "\n"
+    + "Ваш возраст в годах: " + age + "\n"
+    + "Ваш возраст в днях: " + age * 365 + "\n"
+    + "Через 5 лет Вам будет: " + (age + 5) + "\n"
+    + "Ваш пол: " + gender + "\n"
+    + "Вы на пенсии: " + pension);
+
+</script>
+
+<body>
+    
+</body>
+</html>
