@@ -9,23 +9,23 @@
 <script>
 
 var surname=prompt ("Введите Вашу фамилию");
-        var name=prompt ("Введите Ваше имя");
-            var patronymic=prompt ("Введите Ваше отчество");
-                var age=+prompt ("Введите Ваш возраст в годах");
-                    var gender=confirm ("Ваш пол мужской?");
+var name=prompt ("Введите Ваше имя");
+var patronymic=prompt ("Введите Ваше отчество");
+var age=+prompt ("Введите Ваш возраст в годах");
+var gender=confirm ("Ваш пол мужской?");
 
-pol=(gender==true)?"Мужской":"Женский";
-pension_m=(pol=="Мужской" && age >= 63)?"Да":"Нет";
-pension_w=(pol=="Женский" && age >= 58)?"Да":"Нет";
-pension=(pol=="Мужской")?pension_m:pension_w;
+var pol=(gender==true)?"Мужской":"Женский";
+var pension_m=(pol=="Мужской" && age >= 63)?"Да":"Нет";
+var pension_w=(pol=="Женский" && age >= 58)?"Да":"Нет";
+var pension=(pol=="Мужской")?pension_m:pension_w;
 
 alert(
-    "Ваше Ф.И.О.: " + surname + " " + name + " " + patronymic + "\n"
-    + "Ваш возраст в годах: " + age + "\n"
-    + "Ваш возраст в днях: " + age * 365 + "\n"
-    + "Через 5 лет Вам будет: " + (age + 5) + "\n"
-    + "Ваш пол: " + pol + "\n"
-    + "Вы на пенсии: " + pension);
+"Ваше Ф.И.О.: " + surname + " " + name + " " + patronymic + "\n"
++ "Ваш возраст в годах: " + age + "\n"
++ "Ваш возраст в днях: " + age * 365 + "\n"
++ "Через 5 лет Вам будет: " + (age + 5) + "\n"
++ "Ваш пол: " + pol + "\n"
++ "Вы на пенсии: " + pension);
 
 </script>
 <body>

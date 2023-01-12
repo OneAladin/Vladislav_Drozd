@@ -9,25 +9,25 @@
 <script>
 
     var surname=prompt ("Введите Вашу фамилию");
-        var name=prompt ("Введите Ваше имя");
-            var patronymic=prompt ("Введите Ваше отчество");
-                var age=+prompt ("Введите Ваш возраст в годах");
-                    var gender=confirm ("Ваш пол мужской?");
+    var name=prompt ("Введите Ваше имя");
+    var patronymic=prompt ("Введите Ваше отчество");
+    var age=+prompt ("Введите Ваш возраст в годах");
+    var gender=confirm ("Ваш пол мужской?");
     
     if (gender === true) {
-        var gender = "Мужской";
+    var gender = "Мужской";
     } else {
-        var gender = "Женский";
-        }
+    var gender = "Женский";
+    }
 
     if (gender == "Мужской" && age >= 63) {
-        pension = "Да";
+    pension = "Да";
     } else if (gender == "Мужской" && age < 63) {
-        pension = "Нет";
+    pension = "Нет";
     } else if (gender == "Женский" && age >= 58) {
-        pension = "Да";
+    pension = "Да";
     } else if (gender == "Женский" && age < 58) {
-        pension = "Нет";}
+    pension = "Нет";}
 
     alert(
     "Ваше Ф.И.О.: " + surname + " " + name + " " + patronymic + "\n"
